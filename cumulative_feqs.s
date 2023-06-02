@@ -1,3 +1,7 @@
+.section .bss
+.comm cu_feqs, 256, 8   
+
+.section .text
 .global cumulative_feqs
 
 cumulative_feqs:
